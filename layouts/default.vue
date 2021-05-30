@@ -22,6 +22,7 @@
             aria-label="Company"
             title="Company"
             class="inline-flex items-center"
+            v-scroll-to="'#inicio'"
           >
             <nuxt-img
               v-if="!view.topOfPageLogo"

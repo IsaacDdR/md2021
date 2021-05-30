@@ -1,6 +1,9 @@
 <template>
-  <div>
-    <section class="text-gray-600 body-font bg-vinos h-screen md:h-full">
+  <div class="no-highlight">
+    <section
+      class="text-gray-600 body-font bg-vinos h-screen md:h-full"
+      id="inicio"
+    >
       <div
         class="
           container
@@ -36,58 +39,75 @@
             Descubre México a través de una experiencia única y a la puerta de
             tu hogar.
           </h1>
+
+          <a href="#" v-scroll-to="'#first-el'">
+            <div class="flex flex-col my-12 text-white text-xl">
+              <span class="mx-auto text-center text-3xl">
+                <div class="mt-4">
+                  <span class="animate-ping absolute inline-flex">
+                    <font-awesome-icon :icon="['fas', 'chevron-down']" />
+                  </span>
+                  <span class="relative inline-flex">
+                    <font-awesome-icon :icon="['fas', 'chevron-down']" />
+                  </span>
+                </div>
+              </span>
+            </div>
+          </a>
         </div>
       </div>
     </section>
-    <section class="text-gray-600 body-font h-screen md:h-full">
+
+    <section
+      id="first-el"
+      class="mx-auto text-gray-600 body-font h-screen md:h-full lg:px-8 pb-16"
+    >
       <div
         data-aos="fade-up"
         data-aos-duration="1500"
-        class="mx-auto flex px-5 pt-32 md:flex-row flex-col items-center"
+        class="flex px-6 pt-24 xl:flex-row flex-col items-center"
       >
         <div
-          class="
-            lg:flex-grow
-            md:w-1/2
-            lg:pr-24
-            md:pr-16
-            flex flex-col
-            md:items-start
-            md:text-left
-            mb-16
-            md:mb-0
-            items-center
-            text-center
-          "
+          class="text-center items-center md:w-3/4 mb-12 lg:flex-grow lg:w-1/2"
         >
           <h1
             class="
+              mx-auto
               title-font
               sm:text-4xl
               text-3xl
-              mb-4
               font-medium
               text-gray-900
             "
           >
-            Knausgaard typewriter readymade marfa
+            Directo a tus manos
           </h1>
-          <p class="leading-relaxed">
-            Chillwave portland ugh, knausgaard fam polaroid iPhone. Man braid
-            swag typewriter affogato, hella selvage wolf narwhal dreamcatcher.
+          <p class="leading-relaxed mt-4 xl:mx-8">
+            En México Divino buscamos celebrar la diversidad y tradición
+            alrededor de México al mismo tiempo que apoyamos el consumo local.
+            Para lograrlo, mes con mes seleccionamos dos vinos o licores de un
+            estado diferente, para hacértelos llegar hasta la puerta de tu hogar
+            acompañados de una muestra artesanal y gastronómica..
           </p>
         </div>
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <nuxt-img
-            class="object-cover object-center rounded"
-            alt="hero"
-            src="https://dummyimage.com/720x600"
-          />
-        </div>
+        <nuxt-img
+          class="rounded"
+          alt="hero"
+          format="webp"
+          src="/images/agave.jpg"
+        />
       </div>
-      <a href="#" v-scroll-to="'#element'">
-        <div class="flex my-12">
-          <p class="mx-auto">Ve de que trata..</p>
+
+      <a href="#" v-scroll-to="'#video-el'">
+        <div class="flex flex-col my-8 text-2xl">
+          <span class="mx-auto text-center">
+            <span class="animate-ping absolute inline-flex">
+              <font-awesome-icon :icon="['fas', 'angle-double-down']" />
+            </span>
+            <span class="relative inline-flex">
+              <font-awesome-icon :icon="['fas', 'angle-double-down']" />
+            </span>
+          </span>
         </div>
       </a>
     </section>
@@ -105,8 +125,14 @@
         mb-5
       "
     >
-      <div id="element" class="flex lg:flex-row mx-4 flex-col items-center">
-        <div class="w-screen mt-28">
+      <!--Video-->
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        id="video-el"
+        class="flex lg:flex-row mx-4 flex-col items-center"
+      >
+        <div class="w-screen md:mt-40 mt-24 mb-12">
           <div class="aspect-w-16 aspect-h-9">
             <iframe
               autoplay="true"
@@ -135,6 +161,7 @@
               mb-4
               font-medium
               text-gray-900
+              md:pt-8
             "
           >
             Knausgaard typewriter readymade marfa
@@ -145,8 +172,332 @@
           </p>
         </div>
       </div>
+      <a href="#" v-scroll-to="'#steps-el'">
+        <div class="flex">
+          <div class="mt-4 text-2xl mx-auto">
+            <span class="animate-ping absolute inline-flex">
+              <font-awesome-icon :icon="['fas', 'angle-double-down']" />
+            </span>
+            <span class="relative inline-flex">
+              <font-awesome-icon :icon="['fas', 'angle-double-down']" />
+            </span>
+          </div>
+        </div>
+      </a>
     </section>
 
+    <section id="steps-el" class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto flex flex-wrap">
+        <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+          <div
+            class="h-full w-6 absolute inset-0 flex items-center justify-center"
+          >
+            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div
+            class="
+              flex-shrink-0
+              w-6
+              h-6
+              rounded-full
+              mt-10
+              sm:mt-0
+              inline-flex
+              items-center
+              justify-center
+              bg-indigo-500
+              text-white
+              relative
+              z-10
+              title-font
+              font-medium
+              text-sm
+            "
+          >
+            1
+          </div>
+          <div
+            class="
+              flex-grow
+              md:pl-8
+              pl-6
+              flex
+              sm:items-center
+              items-start
+              flex-col
+              sm:flex-row
+            "
+          >
+            <div
+              class="
+                flex-shrink-0
+                w-24
+                h-24
+                bg-indigo-100
+                text-indigo-500
+                rounded-full
+                inline-flex
+                items-center
+                justify-center
+              "
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-12 h-12"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+              <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
+                Shooting Stars
+              </h2>
+              <p class="leading-relaxed">
+                VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
+                bespoke try-hard cliche palo santo offal.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+          <div
+            class="h-full w-6 absolute inset-0 flex items-center justify-center"
+          >
+            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div
+            class="
+              flex-shrink-0
+              w-6
+              h-6
+              rounded-full
+              mt-10
+              sm:mt-0
+              inline-flex
+              items-center
+              justify-center
+              bg-indigo-500
+              text-white
+              relative
+              z-10
+              title-font
+              font-medium
+              text-sm
+            "
+          >
+            2
+          </div>
+          <div
+            class="
+              flex-grow
+              md:pl-8
+              pl-6
+              flex
+              sm:items-center
+              items-start
+              flex-col
+              sm:flex-row
+            "
+          >
+            <div
+              class="
+                flex-shrink-0
+                w-24
+                h-24
+                bg-indigo-100
+                text-indigo-500
+                rounded-full
+                inline-flex
+                items-center
+                justify-center
+              "
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-12 h-12"
+                viewBox="0 0 24 24"
+              >
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+            </div>
+            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+              <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
+                The Catalyzer
+              </h2>
+              <p class="leading-relaxed">
+                VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
+                bespoke try-hard cliche palo santo offal.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+          <div
+            class="h-full w-6 absolute inset-0 flex items-center justify-center"
+          >
+            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div
+            class="
+              flex-shrink-0
+              w-6
+              h-6
+              rounded-full
+              mt-10
+              sm:mt-0
+              inline-flex
+              items-center
+              justify-center
+              bg-indigo-500
+              text-white
+              relative
+              z-10
+              title-font
+              font-medium
+              text-sm
+            "
+          >
+            3
+          </div>
+          <div
+            class="
+              flex-grow
+              md:pl-8
+              pl-6
+              flex
+              sm:items-center
+              items-start
+              flex-col
+              sm:flex-row
+            "
+          >
+            <div
+              class="
+                flex-shrink-0
+                w-24
+                h-24
+                bg-indigo-100
+                text-indigo-500
+                rounded-full
+                inline-flex
+                items-center
+                justify-center
+              "
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-12 h-12"
+                viewBox="0 0 24 24"
+              >
+                <circle cx="12" cy="5" r="3"></circle>
+                <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+              </svg>
+            </div>
+            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+              <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
+                The 400 Blows
+              </h2>
+              <p class="leading-relaxed">
+                VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
+                bespoke try-hard cliche palo santo offal.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+          <div
+            class="h-full w-6 absolute inset-0 flex items-center justify-center"
+          >
+            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div
+            class="
+              flex-shrink-0
+              w-6
+              h-6
+              rounded-full
+              mt-10
+              sm:mt-0
+              inline-flex
+              items-center
+              justify-center
+              bg-indigo-500
+              text-white
+              relative
+              z-10
+              title-font
+              font-medium
+              text-sm
+            "
+          >
+            4
+          </div>
+          <div
+            class="
+              flex-grow
+              md:pl-8
+              pl-6
+              flex
+              sm:items-center
+              items-start
+              flex-col
+              sm:flex-row
+            "
+          >
+            <div
+              class="
+                flex-shrink-0
+                w-24
+                h-24
+                bg-indigo-100
+                text-indigo-500
+                rounded-full
+                inline-flex
+                items-center
+                justify-center
+              "
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-12 h-12"
+                viewBox="0 0 24 24"
+              >
+                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+              <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
+                Neptune
+              </h2>
+              <p class="leading-relaxed">
+                VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
+                bespoke try-hard cliche palo santo offal.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Paquetes-->
     <section class="text-gray-600 body-font overflow-hidden">
       <div class="container px-5 mx-auto">
         <div class="flex flex-col text-center w-full mb-12">
@@ -637,316 +988,6 @@
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
               </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="text-gray-600 body-font">
-      <div class="container px-5 py-24 mx-auto flex flex-wrap">
-        <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
-          <div
-            class="h-full w-6 absolute inset-0 flex items-center justify-center"
-          >
-            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-          </div>
-          <div
-            class="
-              flex-shrink-0
-              w-6
-              h-6
-              rounded-full
-              mt-10
-              sm:mt-0
-              inline-flex
-              items-center
-              justify-center
-              bg-indigo-500
-              text-white
-              relative
-              z-10
-              title-font
-              font-medium
-              text-sm
-            "
-          >
-            1
-          </div>
-          <div
-            class="
-              flex-grow
-              md:pl-8
-              pl-6
-              flex
-              sm:items-center
-              items-start
-              flex-col
-              sm:flex-row
-            "
-          >
-            <div
-              class="
-                flex-shrink-0
-                w-24
-                h-24
-                bg-indigo-100
-                text-indigo-500
-                rounded-full
-                inline-flex
-                items-center
-                justify-center
-              "
-            >
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-12 h-12"
-                viewBox="0 0 24 24"
-              >
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-              </svg>
-            </div>
-            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-              <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-                Shooting Stars
-              </h2>
-              <p class="leading-relaxed">
-                VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                bespoke try-hard cliche palo santo offal.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
-          <div
-            class="h-full w-6 absolute inset-0 flex items-center justify-center"
-          >
-            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-          </div>
-          <div
-            class="
-              flex-shrink-0
-              w-6
-              h-6
-              rounded-full
-              mt-10
-              sm:mt-0
-              inline-flex
-              items-center
-              justify-center
-              bg-indigo-500
-              text-white
-              relative
-              z-10
-              title-font
-              font-medium
-              text-sm
-            "
-          >
-            2
-          </div>
-          <div
-            class="
-              flex-grow
-              md:pl-8
-              pl-6
-              flex
-              sm:items-center
-              items-start
-              flex-col
-              sm:flex-row
-            "
-          >
-            <div
-              class="
-                flex-shrink-0
-                w-24
-                h-24
-                bg-indigo-100
-                text-indigo-500
-                rounded-full
-                inline-flex
-                items-center
-                justify-center
-              "
-            >
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-12 h-12"
-                viewBox="0 0 24 24"
-              >
-                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-              </svg>
-            </div>
-            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-              <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-                The Catalyzer
-              </h2>
-              <p class="leading-relaxed">
-                VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                bespoke try-hard cliche palo santo offal.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
-          <div
-            class="h-full w-6 absolute inset-0 flex items-center justify-center"
-          >
-            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-          </div>
-          <div
-            class="
-              flex-shrink-0
-              w-6
-              h-6
-              rounded-full
-              mt-10
-              sm:mt-0
-              inline-flex
-              items-center
-              justify-center
-              bg-indigo-500
-              text-white
-              relative
-              z-10
-              title-font
-              font-medium
-              text-sm
-            "
-          >
-            3
-          </div>
-          <div
-            class="
-              flex-grow
-              md:pl-8
-              pl-6
-              flex
-              sm:items-center
-              items-start
-              flex-col
-              sm:flex-row
-            "
-          >
-            <div
-              class="
-                flex-shrink-0
-                w-24
-                h-24
-                bg-indigo-100
-                text-indigo-500
-                rounded-full
-                inline-flex
-                items-center
-                justify-center
-              "
-            >
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-12 h-12"
-                viewBox="0 0 24 24"
-              >
-                <circle cx="12" cy="5" r="3"></circle>
-                <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
-              </svg>
-            </div>
-            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-              <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-                The 400 Blows
-              </h2>
-              <p class="leading-relaxed">
-                VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                bespoke try-hard cliche palo santo offal.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
-          <div
-            class="h-full w-6 absolute inset-0 flex items-center justify-center"
-          >
-            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-          </div>
-          <div
-            class="
-              flex-shrink-0
-              w-6
-              h-6
-              rounded-full
-              mt-10
-              sm:mt-0
-              inline-flex
-              items-center
-              justify-center
-              bg-indigo-500
-              text-white
-              relative
-              z-10
-              title-font
-              font-medium
-              text-sm
-            "
-          >
-            4
-          </div>
-          <div
-            class="
-              flex-grow
-              md:pl-8
-              pl-6
-              flex
-              sm:items-center
-              items-start
-              flex-col
-              sm:flex-row
-            "
-          >
-            <div
-              class="
-                flex-shrink-0
-                w-24
-                h-24
-                bg-indigo-100
-                text-indigo-500
-                rounded-full
-                inline-flex
-                items-center
-                justify-center
-              "
-            >
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-12 h-12"
-                viewBox="0 0 24 24"
-              >
-                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                <circle cx="12" cy="7" r="4"></circle>
-              </svg>
-            </div>
-            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-              <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-                Neptune
-              </h2>
-              <p class="leading-relaxed">
-                VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                bespoke try-hard cliche palo santo offal.
-              </p>
             </div>
           </div>
         </div>
@@ -1640,7 +1681,7 @@
 </template>
 <script>
 export default {
-  transition: 'slide-right',
+  transition: 'home',
   //scrollToTop: true,
   async asyncData({ $content, params }) {
     const articles = await $content('articles', params.slug).fetch()
@@ -1683,5 +1724,10 @@ export default {
 
 .slide-right-enter-active {
   animation: slideInRight 0.5s;
+}
+
+.no-highlight {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 </style>
