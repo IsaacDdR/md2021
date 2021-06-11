@@ -60,7 +60,7 @@
               w-32
               -mt-8
               -ml-20
-              text-blue-gray-100
+              text-yellow-500
               lg:w-32
               lg:-ml-28 lg:-mt-10
               sm:block
