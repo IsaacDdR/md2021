@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="bg-transparent fixed z-20 w-screen"
+      class="bg-white fixed z-20 w-screen"
       :class="{ 'bg-white text-gray-900 shadow': !view.topOfPage }"
     >
       <div
@@ -25,22 +25,12 @@
             v-scroll-to="'#inicio'"
           >
             <nuxt-img
-              v-if="!view.topOfPageLogo"
               class="ml-2 w-16 mx-auto"
               format="webp"
               src="/images/md-logo-black.svg"
             />
-            <span
-              v-else
-              class="ml-2 text-xl font-bold tracking-wide text-gray-100"
-              :class="{ 'text-gray-900': !view.topOfPage }"
-              >México Divino</span
-            >
           </NuxtLink>
-          <ul
-            class="flex items-center hidden space-x-8 lg:flex text-gray-100"
-            :class="{ 'text-gray-900': !view.topOfPage }"
-          >
+          <ul class="flex items-center hidden space-x-8 lg:flex text-gray-900">
             <li>
               <NuxtLink
                 to="/nosotros"
@@ -74,7 +64,6 @@
                 >Galería</NuxtLink
               >
             </li>
-
             <li>
               <NuxtLink
                 to="/contacto"
@@ -93,19 +82,19 @@
           </ul>
           <ul
             class="
-              bg-gray-100
+              bg-gray-900
               rounded-lg
               flex
+              text-white
               items-center
               hidden
               space-x-8
               lg:flex
             "
-            :class="{ 'bg-gray-900 text-gray-100': !view.topOfPage }"
           >
             <li>
               <a
-                href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%8D%B7!%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20su%20suscripci%C3%B3n%20y/o%20kits%20personalizados."
+                href="/"
                 class="
                   inline-flex
                   items-center
@@ -146,7 +135,7 @@
               @click="isMenuOpen = true"
             >
               <svg
-                class="w-5 text-gray-100"
+                class="w-5 text-gray-900"
                 :class="{ 'text-gray-900': !view.topOfPage }"
                 viewBox="0 0 24 24"
               >
@@ -282,7 +271,7 @@
                       </li>
                       <li>
                         <a
-                          href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%8D%B7!%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20su%20suscripci%C3%B3n%20y/o%20kits%20personalizados."
+                          href="/"
                           class="
                             inline-flex
                             bg-gray-900

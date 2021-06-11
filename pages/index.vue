@@ -42,7 +42,7 @@
 
           <a href="#" v-scroll-to="'#first-el'">
             <div class="flex flex-col my-12 text-white text-xl">
-              <span class="mx-auto text-center text-3xl">
+              <span class="mx-auto text-center text-4xl">
                 <div class="mt-4">
                   <span class="animate-ping absolute inline-flex">
                     <font-awesome-icon :icon="['fas', 'chevron-down']" />
@@ -99,7 +99,7 @@
       </div>
 
       <a href="#" v-scroll-to="'#video-el'">
-        <div class="flex flex-col my-8 text-2xl">
+        <div class="flex flex-col my-8 text-4xl">
           <span class="mx-auto text-center">
             <span class="animate-ping absolute inline-flex">
               <font-awesome-icon :icon="['fas', 'angle-double-down']" />
@@ -116,7 +116,7 @@
       class="
         text-gray-600
         body-font
-        mx-8
+        mx-4
         md:mx-12
         lg:mx-12
         xl:mx-24
@@ -135,16 +135,18 @@
         <div class="w-screen md:mt-40 mt-24 mb-12">
           <div class="aspect-w-16 aspect-h-9">
             <iframe
-              autoplay="true"
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              src="https://player.vimeo.com/video/463986420"
+              width="640"
+              height="360"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
             ></iframe>
           </div>
         </div>
         <div
           class="
+            my-4
             md:pl-8
             flex flex-col
             md:items-start
@@ -158,23 +160,24 @@
               title-font
               sm:text-4xl
               text-3xl
-              mb-4
+              mb-8
               font-medium
               text-gray-900
               md:pt-8
             "
           >
-            Knausgaard typewriter readymade marfa
+            ¿Qué es México divino?
           </h1>
           <p class="mb-8 leading-relaxed">
-            Chillwave portland ugh, knausgaard fam polaroid iPhone. Man braid
-            swag typewriter affogato, hella selvage wolf narwhal dreamcatcher.
+            Somos una empresa comprometida con México y queremos que así como
+            nosotros, tú te sientas orgulloso de ser parte de la historia,
+            cultura y tradición de este país.
           </p>
         </div>
       </div>
       <a href="#" v-scroll-to="'#steps-el'">
         <div class="flex">
-          <div class="mt-4 text-2xl mx-auto">
+          <div class="mt-4 text-4xl mx-auto">
             <span class="animate-ping absolute inline-flex">
               <font-awesome-icon :icon="['fas', 'angle-double-down']" />
             </span>
@@ -188,7 +191,11 @@
 
     <section id="steps-el" class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto flex flex-wrap">
-        <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+        <div
+          class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
           <div
             class="h-full w-6 absolute inset-0 flex items-center justify-center"
           >
@@ -205,7 +212,7 @@
               inline-flex
               items-center
               justify-center
-              bg-indigo-500
+              bg-gray-900
               text-white
               relative
               z-10
@@ -233,38 +240,32 @@
                 flex-shrink-0
                 w-24
                 h-24
-                bg-indigo-100
-                text-indigo-500
+                bg-gray-200
+                text-gray-900
                 rounded-full
                 inline-flex
                 items-center
                 justify-center
               "
             >
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-12 h-12"
-                viewBox="0 0 24 24"
-              >
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-              </svg>
+              <font-awesome-icon class="text-4xl" :icon="['fas', 'envelope']" />
             </div>
             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
               <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-                Shooting Stars
+                Contáctanos
               </h2>
               <p class="leading-relaxed">
-                VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                bespoke try-hard cliche palo santo offal.
+                Por Whatsapp, Facebook o Instagram, envíanos un mensaje y con
+                mucho gusto te atenderemos.
               </p>
             </div>
           </div>
         </div>
-        <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+        <div
+          class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
           <div
             class="h-full w-6 absolute inset-0 flex items-center justify-center"
           >
@@ -281,7 +282,7 @@
               inline-flex
               items-center
               justify-center
-              bg-indigo-500
+              bg-gray-900
               text-white
               relative
               z-10
@@ -309,38 +310,35 @@
                 flex-shrink-0
                 w-24
                 h-24
-                bg-indigo-100
-                text-indigo-500
+                bg-gray-200
+                text-gray-900
                 rounded-full
                 inline-flex
                 items-center
                 justify-center
               "
             >
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-12 h-12"
-                viewBox="0 0 24 24"
-              >
-                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-              </svg>
+              <font-awesome-icon
+                :icon="['fas', 'calendar-check']"
+                class="text-4xl"
+              />
             </div>
             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
               <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-                The Catalyzer
+                Revisión
               </h2>
               <p class="leading-relaxed">
-                VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                bespoke try-hard cliche palo santo offal.
+                A partir de aquí nosotros nos encargamos, procesaremos tu compra
+                y prepararemos todo lo necesario.
               </p>
             </div>
           </div>
         </div>
-        <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+        <div
+          class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
           <div
             class="h-full w-6 absolute inset-0 flex items-center justify-center"
           >
@@ -357,7 +355,7 @@
               inline-flex
               items-center
               justify-center
-              bg-indigo-500
+              bg-gray-900
               text-white
               relative
               z-10
@@ -385,39 +383,32 @@
                 flex-shrink-0
                 w-24
                 h-24
-                bg-indigo-100
-                text-indigo-500
+                bg-gray-200
+                text-gray-900
                 rounded-full
                 inline-flex
                 items-center
                 justify-center
               "
             >
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-12 h-12"
-                viewBox="0 0 24 24"
-              >
-                <circle cx="12" cy="5" r="3"></circle>
-                <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
-              </svg>
+              <font-awesome-icon :icon="['fas', 'clock']" class="text-4xl" />
             </div>
             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
               <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-                The 400 Blows
+                Solo espera
               </h2>
               <p class="leading-relaxed">
-                VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                bespoke try-hard cliche palo santo offal.
+                Tu compra estará camino directo a tu casa, departamento u
+                oficina.
               </p>
             </div>
           </div>
         </div>
-        <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+        <div
+          class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
           <div
             class="h-full w-6 absolute inset-0 flex items-center justify-center"
           >
@@ -434,7 +425,7 @@
               inline-flex
               items-center
               justify-center
-              bg-indigo-500
+              bg-gray-900
               text-white
               relative
               z-10
@@ -462,34 +453,26 @@
                 flex-shrink-0
                 w-24
                 h-24
-                bg-indigo-100
-                text-indigo-500
+                bg-gray-200
+                text-gray-900
                 rounded-full
                 inline-flex
                 items-center
                 justify-center
               "
             >
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-12 h-12"
-                viewBox="0 0 24 24"
-              >
-                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                <circle cx="12" cy="7" r="4"></circle>
-              </svg>
+              <font-awesome-icon
+                :icon="['fas', 'wine-glass-alt']"
+                class="text-4xl"
+              />
             </div>
             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
               <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-                Neptune
+                Disfruta
               </h2>
               <p class="leading-relaxed">
-                VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                bespoke try-hard cliche palo santo offal.
+                Una vez en tus manos, descubre todo lo que México Divino es, y
+                tiene para tí.
               </p>
             </div>
           </div>
@@ -500,7 +483,11 @@
     <!--Paquetes-->
     <section class="text-gray-600 body-font overflow-hidden">
       <div class="container px-5 mx-auto">
-        <div class="flex flex-col text-center w-full mb-12">
+        <div
+          class="flex flex-col text-center w-full mb-12"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
           <h1
             class="
               sm:text-4xl
@@ -517,7 +504,11 @@
             México hasta la puerta de tu hogar.
           </p>
         </div>
-        <div class="flex flex-wrap -m-4">
+        <div
+          class="flex flex-wrap -m-4 py-8"
+          data-aos="slide-up"
+          data-aos-duration="1500"
+        >
           <div class="p-4 xl:w-1/4 md:w-1/2 w-full md:ml-auto">
             <div
               class="
@@ -628,7 +619,8 @@
                   </svg> </span
                 >Personaliza con tu nombre o un mensaje
               </p>
-              <button
+              <a
+                href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%8D%B7!%20Me%20interesa%20adquirir%20su%20paquete%20%C3%9Anico."
                 class="
                   flex
                   items-center
@@ -640,8 +632,9 @@
                   px-4
                   w-full
                   focus:outline-none
-                  hover:bg-gray-500
+                  hover:bg-gray-900
                   rounded
+                  shadow
                 "
               >
                 COMPRA
@@ -656,16 +649,18 @@
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </button>
+              </a>
             </div>
           </div>
-          <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+          <div class="xl:w-1/4 md:w-1/2 w-full">
             <div
               class="
+                animate-pulse
                 h-full
                 p-6
+                mx-4
                 rounded-lg
-                border-2 border-indigo-500
+                border-2 border-yellow-500
                 flex flex-col
                 relative
                 overflow-hidden
@@ -673,7 +668,7 @@
             >
               <span
                 class="
-                  bg-indigo-500
+                  bg-yellow-500
                   text-white
                   px-3
                   py-1
@@ -712,7 +707,7 @@
                     inline-flex
                     items-center
                     justify-center
-                    bg-gray-400
+                    bg-yellow-500
                     text-white
                     rounded-full
                     flex-shrink-0
@@ -740,7 +735,7 @@
                     inline-flex
                     items-center
                     justify-center
-                    bg-gray-400
+                    bg-yellow-500
                     text-white
                     rounded-full
                     flex-shrink-0
@@ -768,7 +763,7 @@
                     inline-flex
                     items-center
                     justify-center
-                    bg-gray-400
+                    bg-yellow-500
                     text-white
                     rounded-full
                     flex-shrink-0
@@ -796,7 +791,7 @@
                     inline-flex
                     items-center
                     justify-center
-                    bg-gray-400
+                    bg-yellow-500
                     text-white
                     rounded-full
                     flex-shrink-0
@@ -815,19 +810,21 @@
                   </svg> </span
                 >Sommelier en línea
               </p>
-              <button
+              <a
+                href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%8D%B7!%20Me%20interesa%20adquirir%20su%20paquete%20de%20suscripci%C3%B3n."
                 class="
                   flex
                   items-center
                   mt-auto
                   text-white
-                  bg-indigo-500
+                  bg-yellow-500
                   border-0
                   py-2
                   px-4
                   w-full
                   focus:outline-none
-                  hover:bg-indigo-600
+                  hover:bg-yellow-400
+                  shadow
                   rounded
                 "
               >
@@ -843,7 +840,7 @@
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </button>
+              </a>
             </div>
           </div>
           <div class="p-4 xl:w-1/4 md:w-1/2 w-full md:mr-auto">
@@ -930,7 +927,8 @@
                   </svg> </span
                 >Venta a restaurantes y bares
               </p>
-              <p class="flex items-center text-gray-600 mb-2">
+
+              <p class="flex items-center text-gray-600 mb-6">
                 <span
                   class="
                     w-4
@@ -958,8 +956,8 @@
                   </svg> </span
                 >Cotizaciones para grupos y eventos
               </p>
-
-              <button
+              <a
+                href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%8D%B7!%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20su%20suscripci%C3%B3n%20y/o%20kits%20personalizados."
                 class="
                   flex
                   items-center
@@ -971,7 +969,8 @@
                   px-4
                   w-full
                   focus:outline-none
-                  hover:bg-gray-500
+                  hover:bg-gray-900
+                  shadow
                   rounded
                 "
               >
@@ -987,385 +986,17 @@
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </button>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <section class="text-gray-600 body-font">
-      <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-col text-center w-full mb-20">
-          <h1
-            class="
-              text-2xl
-              font-medium
-              title-font
-              mb-4
-              text-gray-900
-              tracking-widest
-            "
-          >
-            OUR TEAM
-          </h1>
-          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table. Franzen you probably
-            haven't heard of them.
-          </p>
-        </div>
-        <div class="flex flex-wrap -m-4">
-          <div class="p-4 lg:w-1/2">
-            <div
-              class="
-                h-full
-                flex
-                sm:flex-row
-                flex-col
-                items-center
-                sm:justify-start
-                justify-center
-                text-center
-                sm:text-left
-              "
-            >
-              <img
-                alt="team"
-                class="
-                  flex-shrink-0
-                  rounded-lg
-                  w-48
-                  h-48
-                  object-cover object-center
-                  sm:mb-0
-                  mb-4
-                "
-                src="https://dummyimage.com/200x200"
-              />
-              <div class="flex-grow sm:pl-8">
-                <h2 class="title-font font-medium text-lg text-gray-900">
-                  Holden Caulfield
-                </h2>
-                <h3 class="text-gray-500 mb-3">UI Developer</h3>
-                <p class="mb-4">
-                  DIY tote bag drinking vinegar cronut adaptogen squid fanny
-                  pack vaporware.
-                </p>
-                <span class="inline-flex">
-                  <a class="text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                      ></path>
-                    </svg>
-                  </a>
-                  <a class="ml-2 text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                      ></path>
-                    </svg>
-                  </a>
-                  <a class="ml-2 text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
-                      ></path>
-                    </svg>
-                  </a>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="p-4 lg:w-1/2">
-            <div
-              class="
-                h-full
-                flex
-                sm:flex-row
-                flex-col
-                items-center
-                sm:justify-start
-                justify-center
-                text-center
-                sm:text-left
-              "
-            >
-              <img
-                alt="team"
-                class="
-                  flex-shrink-0
-                  rounded-lg
-                  w-48
-                  h-48
-                  object-cover object-center
-                  sm:mb-0
-                  mb-4
-                "
-                src="https://dummyimage.com/201x201"
-              />
-              <div class="flex-grow sm:pl-8">
-                <h2 class="title-font font-medium text-lg text-gray-900">
-                  Alper Kamu
-                </h2>
-                <h3 class="text-gray-500 mb-3">Designer</h3>
-                <p class="mb-4">
-                  DIY tote bag drinking vinegar cronut adaptogen squid fanny
-                  pack vaporware.
-                </p>
-                <span class="inline-flex">
-                  <a class="text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                      ></path>
-                    </svg>
-                  </a>
-                  <a class="ml-2 text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                      ></path>
-                    </svg>
-                  </a>
-                  <a class="ml-2 text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
-                      ></path>
-                    </svg>
-                  </a>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="p-4 lg:w-1/2">
-            <div
-              class="
-                h-full
-                flex
-                sm:flex-row
-                flex-col
-                items-center
-                sm:justify-start
-                justify-center
-                text-center
-                sm:text-left
-              "
-            >
-              <img
-                alt="team"
-                class="
-                  flex-shrink-0
-                  rounded-lg
-                  w-48
-                  h-48
-                  object-cover object-center
-                  sm:mb-0
-                  mb-4
-                "
-                src="https://dummyimage.com/204x204"
-              />
-              <div class="flex-grow sm:pl-8">
-                <h2 class="title-font font-medium text-lg text-gray-900">
-                  Atticus Finch
-                </h2>
-                <h3 class="text-gray-500 mb-3">UI Developer</h3>
-                <p class="mb-4">
-                  DIY tote bag drinking vinegar cronut adaptogen squid fanny
-                  pack vaporware.
-                </p>
-                <span class="inline-flex">
-                  <a class="text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                      ></path>
-                    </svg>
-                  </a>
-                  <a class="ml-2 text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                      ></path>
-                    </svg>
-                  </a>
-                  <a class="ml-2 text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
-                      ></path>
-                    </svg>
-                  </a>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="p-4 lg:w-1/2">
-            <div
-              class="
-                h-full
-                flex
-                sm:flex-row
-                flex-col
-                items-center
-                sm:justify-start
-                justify-center
-                text-center
-                sm:text-left
-              "
-            >
-              <img
-                alt="team"
-                class="
-                  flex-shrink-0
-                  rounded-lg
-                  w-48
-                  h-48
-                  object-cover object-center
-                  sm:mb-0
-                  mb-4
-                "
-                src="https://dummyimage.com/206x206"
-              />
-              <div class="flex-grow sm:pl-8">
-                <h2 class="title-font font-medium text-lg text-gray-900">
-                  Henry Letham
-                </h2>
-                <h3 class="text-gray-500 mb-3">Designer</h3>
-                <p class="mb-4">
-                  DIY tote bag drinking vinegar cronut adaptogen squid fanny
-                  pack vaporware.
-                </p>
-                <span class="inline-flex">
-                  <a class="text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                      ></path>
-                    </svg>
-                  </a>
-                  <a class="ml-2 text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                      ></path>
-                    </svg>
-                  </a>
-                  <a class="ml-2 text-gray-500">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
-                      ></path>
-                    </svg>
-                  </a>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="text-gray-600 body-font">
-      <div class="container px-5 py-2 mx-auto">
-        <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+    <section
+      class="flex text-gray-600 body-font h-screen justify-center items-center"
+    >
+      <div class="container px-5 py-2">
+        <div class="w-full m-auto text-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -1376,12 +1007,12 @@
               d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
             ></path>
           </svg>
-          <p class="leading-relaxed text-lg">
+          <p class="leading-relaxed text-lg italic text-3xl">
             En esta pandemia lograron traer lo mejor del país a la puerta de mi
             casa.<br />¡Gracias México Divino!
           </p>
           <span
-            class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"
+            class="inline-block h-1 w-10 rounded bg-indigo-500 mt-5 mb-4"
           ></span>
           <h2
             class="text-gray-900 font-medium title-font tracking-wider text-sm"
@@ -1389,79 +1020,6 @@
             Víctor Daniel Ordoñez
           </h2>
           <p class="text-gray-500">suscriptor de México Divino</p>
-        </div>
-      </div>
-    </section>
-    <section class="text-gray-600 body-font">
-      <div class="container px-5 py-20 mx-auto flex flex-wrap">
-        <div class="flex w-full mb-20 flex-wrap">
-          <h1
-            class="
-              sm:text-3xl
-              text-2xl text-center
-              font-medium
-              title-font
-              text-gray-900
-              lg:w-1/3
-              lg:mb-0
-              mb-4
-            "
-          >
-            Galería
-          </h1>
-          <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table. Franzen you probably
-            haven't heard of them man bun deep jianbing selfies heirloom.
-          </p>
-        </div>
-        <div class="flex flex-wrap md:-m-2 -m-1">
-          <div class="flex flex-wrap w-1/2">
-            <div class="md:p-2 p-1 w-1/2">
-              <img
-                alt="gallery"
-                class="w-full object-cover h-full object-center block"
-                src="https://dummyimage.com/500x300"
-              />
-            </div>
-            <div class="md:p-2 p-1 w-1/2">
-              <img
-                alt="gallery"
-                class="w-full object-cover h-full object-center block"
-                src="https://dummyimage.com/501x301"
-              />
-            </div>
-            <div class="md:p-2 p-1 w-full">
-              <img
-                alt="gallery"
-                class="w-full h-full object-cover object-center block"
-                src="https://dummyimage.com/600x360"
-              />
-            </div>
-          </div>
-          <div class="flex flex-wrap w-1/2">
-            <div class="md:p-2 p-1 w-full">
-              <img
-                alt="gallery"
-                class="w-full h-full object-cover object-center block"
-                src="https://dummyimage.com/601x361"
-              />
-            </div>
-            <div class="md:p-2 p-1 w-1/2">
-              <img
-                alt="gallery"
-                class="w-full object-cover h-full object-center block"
-                src="https://dummyimage.com/502x302"
-              />
-            </div>
-            <div class="md:p-2 p-1 w-1/2">
-              <img
-                alt="gallery"
-                class="w-full object-cover h-full object-center block"
-                src="https://dummyimage.com/503x303"
-              />
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -1479,11 +1037,11 @@
               text-gray-900
             "
           >
-            Contact Us
+            Contáctanos
           </h1>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify.
+            No te quedes con duda, manda un mensaje y te atenderemos a la
+            brevedad
           </p>
         </div>
         <div class="lg:w-1/2 md:w-2/3 mx-auto">
@@ -1491,7 +1049,7 @@
             <div class="p-2 w-1/2">
               <div class="relative">
                 <label for="name" class="leading-7 text-sm text-gray-600"
-                  >Name</label
+                  >Nombre</label
                 >
                 <input
                   id="name"
@@ -1551,7 +1109,7 @@
             <div class="p-2 w-full">
               <div class="relative">
                 <label for="message" class="leading-7 text-sm text-gray-600"
-                  >Message</label
+                  >Mensaje</label
                 >
                 <textarea
                   id="message"
@@ -1582,12 +1140,14 @@
             <div class="p-2 w-full">
               <button
                 class="
+                  shadow
+                  animate-pulse
                   flex
                   mx-auto
                   text-white
-                  bg-indigo-500
                   border-0
                   py-2
+                  bg-gray-800
                   px-8
                   focus:outline-none
                   hover:bg-indigo-600
@@ -1595,83 +1155,17 @@
                   text-lg
                 "
               >
-                Button
+                Envíar
               </button>
             </div>
+
             <div
               class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center"
             >
-              <a class="text-indigo-500">example@email.com</a>
+              <a class="text-indigo-500">hola@mexicodivino.com.mx</a>
               <p class="leading-normal my-5">
-                49 Smith St. <br />Saint Cloud, MN 56301
+                Santiago de Querétaro <br />México
               </p>
-              <span class="inline-flex">
-                <a class="text-gray-500">
-                  <svg
-                    fill="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                    ></path>
-                  </svg>
-                </a>
-                <a class="ml-4 text-gray-500">
-                  <svg
-                    fill="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                    ></path>
-                  </svg>
-                </a>
-                <a class="ml-4 text-gray-500">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <rect
-                      width="20"
-                      height="20"
-                      x="2"
-                      y="2"
-                      rx="5"
-                      ry="5"
-                    ></rect>
-                    <path
-                      d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
-                    ></path>
-                  </svg>
-                </a>
-                <a class="ml-4 text-gray-500">
-                  <svg
-                    fill="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
-                    ></path>
-                  </svg>
-                </a>
-              </span>
             </div>
           </div>
         </div>
