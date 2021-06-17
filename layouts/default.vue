@@ -28,7 +28,7 @@
               v-if="!view.topOfPageLogo"
               class="ml-2 w-16 mx-auto"
               format="webp"
-              src="/images/md-logo-black.svg"
+              src="images/md-logo-black.svg"
             />
             <span
               v-else
@@ -120,8 +120,7 @@
                   shadow-md
                   bg-deep-purple-accent-400
                   hover:bg-deep-purple-accent-700
-                  focus:shadow-outline
-                  focus:outline-none
+                  focus:shadow-outline focus:outline-none
                 "
                 aria-label="Sign up"
                 title="Sign up"
@@ -140,8 +139,7 @@
                 transition
                 duration-200
                 rounded
-                focus:outline-none
-                focus:shadow-outline
+                focus:outline-none focus:shadow-outline
               "
               @click="isMenuOpen = true"
             >
@@ -300,8 +298,7 @@
                             shadow-md
                             bg-deep-purple-accent-400
                             hover:bg-deep-purple-accent-700
-                            focus:shadow-outline
-                            focus:outline-none
+                            focus:shadow-outline focus:outline-none
                           "
                           aria-label="Sign up"
                           title="Sign up"
@@ -353,11 +350,7 @@
         <p
           class="
             text-sm text-gray-700
-            sm:ml-4
-            sm:pl-4
-            sm:border-l-2 sm:border-gray-200
-            sm:py-2
-            sm:mt-0
+            sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0
             mt-4
           "
         >
@@ -373,8 +366,7 @@
         <span
           class="
             inline-flex
-            sm:ml-auto
-            sm:mt-0
+            sm:ml-auto sm:mt-0
             mt-4
             justify-center
             sm:justify-start

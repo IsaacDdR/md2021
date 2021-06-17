@@ -27,7 +27,6 @@
             h-full
           "
           alt="hero"
-          format="webp"
           src="/images/logo-md.svg"
         />
         <div
@@ -149,8 +148,7 @@
             my-4
             md:pl-8
             flex flex-col
-            md:items-start
-            md:text-left
+            md:items-start md:text-left
             items-center
             text-center
           "
@@ -1062,7 +1060,8 @@
                     border border-gray-300
                     focus:border-indigo-500
                     focus:bg-white
-                    focus:ring-2 focus:ring-indigo-200
+                    focus:ring-2
+                    focus:ring-indigo-200
                     text-base
                     outline-none
                     text-gray-700
@@ -1092,7 +1091,8 @@
                     border border-gray-300
                     focus:border-indigo-500
                     focus:bg-white
-                    focus:ring-2 focus:ring-indigo-200
+                    focus:ring-2
+                    focus:ring-indigo-200
                     text-base
                     outline-none
                     text-gray-700
@@ -1121,7 +1121,8 @@
                     border border-gray-300
                     focus:border-indigo-500
                     focus:bg-white
-                    focus:ring-2 focus:ring-indigo-200
+                    focus:ring-2
+                    focus:ring-indigo-200
                     h-32
                     text-base
                     outline-none
