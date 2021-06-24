@@ -27,7 +27,7 @@
             <nuxt-img
               class="ml-2 w-16 mx-auto"
               format="webp"
-              src="/images/md-logo-black.svg"
+              src="/img/logo-md.png"
             />
           </NuxtLink>
           <ul class="flex items-center hidden space-x-8 lg:flex text-gray-900">
@@ -109,8 +109,7 @@
                   shadow-md
                   bg-deep-purple-accent-400
                   hover:bg-deep-purple-accent-700
-                  focus:shadow-outline
-                  focus:outline-none
+                  focus:shadow-outline focus:outline-none
                 "
                 aria-label="Sign up"
                 title="Sign up"
@@ -129,8 +128,7 @@
                 transition
                 duration-200
                 rounded
-                focus:outline-none
-                focus:shadow-outline
+                focus:outline-none focus:shadow-outline
               "
               @click="isMenuOpen = true"
             >
@@ -289,8 +287,7 @@
                             shadow-md
                             bg-deep-purple-accent-400
                             hover:bg-deep-purple-accent-700
-                            focus:shadow-outline
-                            focus:outline-none
+                            focus:shadow-outline focus:outline-none
                           "
                           aria-label="Sign up"
                           title="Sign up"
@@ -333,20 +330,12 @@
             text-gray-900
           "
         >
-          <nuxt-img
-            format="webp"
-            src="/images/md-logo-black.svg"
-            class="w-16"
-          />
+          <nuxt-img format="webp" src="/img/logo-md.png" class="w-16" />
         </a>
         <p
           class="
             text-sm text-gray-700
-            sm:ml-4
-            sm:pl-4
-            sm:border-l-2 sm:border-gray-200
-            sm:py-2
-            sm:mt-0
+            sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0
             mt-4
           "
         >
@@ -362,8 +351,7 @@
         <span
           class="
             inline-flex
-            sm:ml-auto
-            sm:mt-0
+            sm:ml-auto sm:mt-0
             mt-4
             justify-center
             sm:justify-start

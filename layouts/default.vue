@@ -28,7 +28,7 @@
               v-if="!view.topOfPageLogo"
               class="ml-2 w-16 mx-auto"
               format="webp"
-              src="images/md-logo-black.svg"
+              src="/img/logo-md.png"
             />
             <span
               v-else
@@ -341,11 +341,7 @@
             text-gray-900
           "
         >
-          <nuxt-img
-            format="webp"
-            src="/images/md-logo-black.svg"
-            class="w-16"
-          />
+          <nuxt-img format="webp" src="/img/logo-md.png" class="w-16" />
         </a>
         <p
           class="

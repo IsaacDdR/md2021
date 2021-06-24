@@ -25,9 +25,10 @@
             object-cover object-center
             rounded
             h-full
+            w-full
           "
           alt="hero"
-          src="/images/logo-md.svg"
+          src="/img/logo-md.png"
         />
         <div
           class="w-full md:w-2/3 flex flex-col mb-16 items-center text-center"
@@ -93,7 +94,7 @@
           class="rounded"
           alt="hero"
           format="webp"
-          src="/images/agave.jpg"
+          src="/img/agave.jpg"
         />
       </div>
 
