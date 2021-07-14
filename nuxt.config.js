@@ -34,7 +34,13 @@ export default {
     '@nuxt/image',
 
     '@nuxtjs/fontawesome',
+
+    '@nuxtjs/snipcart',
   ],
+
+  snipcart: {
+    key: 'ODJjNjNjYTQtZmJlZC00MDVjLWI2ZmEtOTgxZGIxMGU0YmU5NjM3NDIxOTQxNjAwNjMwMTAw',
+  },
 
   fontawesome: {
     icons: {

@@ -28,7 +28,7 @@
               v-if="!view.topOfPageLogo"
               class="ml-2 w-16 mx-auto"
               format="webp"
-              src="/img/logo-md.png"
+              src="/img/md-logo-black.png"
             />
             <span
               v-else
