@@ -167,7 +167,7 @@
           <a
             data-item-id="unica-entrega"
             data-item-price="1649"
-            data-item-url="https://md2021.vercel.app/paquetes"
+            data-item-url="/paquetes"
             data-item-name="Única entrega"
             data-item-description="Disfruta de México Divino en una sola exhibición, ideal para probar o regalar"
             data-item-image="/img/test.jpg"
