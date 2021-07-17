@@ -151,25 +151,26 @@
         "
       >
         <div class="text-center">
-          <div class="text-lg font-semibold">Suscripción Ámbar</div>
+          <div class="text-lg font-semibold">Única entrega</div>
           <div class="flex items-center justify-center mt-2">
-            <div class="mr-1 text-5xl font-bold">$899</div>
+            <div class="mr-1 text-5xl font-bold">$1649</div>
           </div>
           <div class="mt-2 space-y-3">
             <div class="text-gray-700">Recibe nuestro kit del mes</div>
             <div class="text-gray-700">
               Personaliza con tu nombre o un mensaje
             </div>
-            <div class="text-gray-700">Característica</div>
+            <div class="text-gray-700">Ideal para regalo</div>
           </div>
         </div>
         <div>
           <a
-            data-item-id="paquete-unico"
-            data-item-price="899"
+            data-item-id="unica-entrega"
+            data-item-price="1649"
             :data-item-url="$route.fullPath"
-            data-item-name="Paquete Unico"
-            data-item-image="~/assets/img/agave.jpg"
+            data-item-name="Única entrega"
+            data-item-description="Disfruta de México Divino en una sola exhibición, ideal para probar o regalar"
+            data-item-image="/img/test.jpg"
             class="
               snipcart-add-item
               inline-flex
@@ -420,7 +421,7 @@
       </div>
     </div>
     <div class="w-full text-center text-gray-600">
-      Los precios no inclu yen envío.
+      Los precios no incluyen envío.
     </div>
   </div>
 </template>

@@ -49,10 +49,6 @@ export default {
     },
   },
 
-  server: {
-    host: '0',
-  },
-
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
