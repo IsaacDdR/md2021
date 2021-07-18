@@ -26,13 +26,7 @@
       </div>
     </div>
     <div>
-      <a
-        data-item-id="unica-entrega"
-        data-item-price="1649"
-        data-item-url="/paquetes/unica-entrega"
-        data-item-name="Única entrega"
-        data-item-description="Disfruta de México Divino en una sola exhibición, ideal para probar o regalar"
-        data-item-image="/img/test.jpg"
+      <button
         class="
           snipcart-add-item
           inline-flex
@@ -53,9 +47,15 @@
           hover:bg-gray-900
           focus:shadow-outline focus:outline-none
         "
+        data-item-id="unica-entrega"
+        data-item-price="1649"
+        data-item-url="/paquetes/unica-entrega"
+        data-item-name="Única entrega"
+        data-item-description="Disfruta de México Divino en una sola exhibición, ideal para probar o regalar"
+        data-item-image="/img/test.jpg"
       >
         Compra
-      </a>
+      </button>
       <p
         class="
           max-w-xs
