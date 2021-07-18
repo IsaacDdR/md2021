@@ -164,15 +164,9 @@
           </div>
         </div>
         <div>
-          <a
-            data-item-id="unica-entrega"
-            data-item-price="1649"
-            data-item-url="/paquetes"
-            data-item-name="Única entrega"
-            data-item-description="Disfruta de México Divino en una sola exhibición, ideal para probar o regalar"
-            data-item-image="/img/test.jpg"
+          <NuxtLink
+            to="/paquetes/unica-entrega"
             class="
-              snipcart-add-item
               inline-flex
               items-center
               justify-center
@@ -193,7 +187,7 @@
             "
           >
             Compra
-          </a>
+          </NuxtLink>
           <p
             class="
               max-w-xs
@@ -206,6 +200,7 @@
           </p>
         </div>
       </div>
+
       <div
         class="
           flex flex-col
