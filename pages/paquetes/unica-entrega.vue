@@ -59,7 +59,7 @@
               data-item-description="Disfruta de México Divino en una sola exhibición, ideal para probar o regalar"
               data-item-image="/img/test.jpg"
               class="
-                snicart-add-item
+                snipcart-add-item
                 flex
                 ml-auto
                 text-white
