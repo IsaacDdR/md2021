@@ -44,6 +44,8 @@ export default {
 
   snipcart: {
     key: 'ODJjNjNjYTQtZmJlZC00MDVjLWI2ZmEtOTgxZGIxMGU0YmU5NjM3NDIxOTQxNjAwNjMwMTAw',
+
+    locales: { es: {} },
   },
 
   fontawesome: {
