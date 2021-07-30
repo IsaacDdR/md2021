@@ -29,11 +29,7 @@
             >
           </div>
           <p class="leading-relaxed mb-4">
-            Fam locavore kickstarter distillery. Mixtape chillwave tumeric
-            sriracha taximy chia microdosing tilde DIY. XOXO fam inxigo
-            juiceramps cornhole raw denim forage brooklyn. Everyday carry +1
-            seitan poutine tumeric. Gastropub blue bottle austin listicle
-            pour-over, neutra jean.
+            Una botella de vino junto con una prueba para deleitar
           </p>
           <div class="flex border-t border-gray-200 py-2">
             <span class="text-gray-500">Color</span>

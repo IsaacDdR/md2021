@@ -521,7 +521,7 @@
               "
             >
               <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
-                Único
+                Única entrega
               </h2>
               <h1
                 class="
@@ -532,36 +532,8 @@
                   leading-none
                 "
               >
-                $1699
+                $1649
               </h1>
-              <p class="flex items-center text-gray-600 mb-2">
-                <span
-                  class="
-                    w-4
-                    h-4
-                    mr-2
-                    inline-flex
-                    items-center
-                    justify-center
-                    bg-gray-400
-                    text-white
-                    rounded-full
-                    flex-shrink-0
-                  "
-                >
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2.5"
-                    class="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg> </span
-                >IVA Incluido
-              </p>
               <p class="flex items-center text-gray-600 mb-2">
                 <span
                   class="
@@ -590,6 +562,34 @@
                   </svg> </span
                 >Recibe nuestro kit del mes
               </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span
+                  class="
+                    w-4
+                    h-4
+                    mr-2
+                    inline-flex
+                    items-center
+                    justify-center
+                    bg-gray-400
+                    text-white
+                    rounded-full
+                    flex-shrink-0
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Personaliza con un nombre o un mensaje
+              </p>
               <p class="flex items-center text-gray-600 mb-6">
                 <span
                   class="
@@ -616,7 +616,35 @@
                   >
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg> </span
-                >Personaliza con tu nombre o un mensaje
+                >Ideal para regalo
+              </p>
+              <p class="flex items-center text-gray-600 mb-6">
+                <span
+                  class="
+                    w-4
+                    h-4
+                    mr-2
+                    inline-flex
+                    items-center
+                    justify-center
+                    bg-gray-400
+                    text-white
+                    rounded-full
+                    flex-shrink-0
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >IVA Incluido
               </p>
               <a
                 href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%8D%B7!%20Me%20interesa%20adquirir%20su%20paquete%20%C3%9Anico."
@@ -665,7 +693,7 @@
               "
             >
               <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
-                Único
+                Suscripción Ámbar
               </h2>
               <h1
                 class="
@@ -676,7 +704,7 @@
                   leading-none
                 "
               >
-                $1699
+                $899
               </h1>
               <p class="flex items-center text-gray-600 mb-2">
                 <span
@@ -704,7 +732,8 @@
                   >
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg> </span
-                >IVA Incluido
+                >Recibe dos botellas de nuestra selección mensual (vino y/o
+                licores)
               </p>
               <p class="flex items-center text-gray-600 mb-2">
                 <span
@@ -732,8 +761,9 @@
                   >
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg> </span
-                >Recibe nuestro kit del mes
+                >Cobro automático a tu tarjeta
               </p>
+
               <p class="flex items-center text-gray-600 mb-6">
                 <span
                   class="
@@ -760,7 +790,7 @@
                   >
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg> </span
-                >Personaliza con tu nombre o un mensaje
+                >IVA Incluido
               </p>
               <a
                 href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%8D%B7!%20Me%20interesa%20adquirir%20su%20paquete%20%C3%9Anico."
@@ -826,7 +856,7 @@
                 >POPULAR</span
               >
               <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
-                Suscripción
+                Suscripción Jade
               </h2>
               <h1
                 class="
@@ -839,7 +869,7 @@
                   border-b border-gray-200
                 "
               >
-                <span>$1499</span>
+                <span>$1449</span>
                 <span class="text-lg ml-1 font-normal text-gray-500">/mes</span>
               </h1>
               <p class="flex items-center text-gray-600 mb-2">
@@ -868,92 +898,66 @@
                   >
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg> </span
+                >Recibe nuestro kit del mes ( 2 vinos y/o licores, muestra
+                artesanal, gastronómica y cultural y empaque especial)
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span
+                  class="
+                    w-4
+                    h-4
+                    mr-2
+                    inline-flex
+                    items-center
+                    justify-center
+                    bg-yellow-500
+                    text-white
+                    rounded-full
+                    flex-shrink-0
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Cobro automático a tu tarjeta
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span
+                  class="
+                    w-4
+                    h-4
+                    mr-2
+                    inline-flex
+                    items-center
+                    justify-center
+                    bg-yellow-500
+                    text-white
+                    rounded-full
+                    flex-shrink-0
+                  "
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
                 >IVA Incluido
               </p>
-              <p class="flex items-center text-gray-600 mb-2">
-                <span
-                  class="
-                    w-4
-                    h-4
-                    mr-2
-                    inline-flex
-                    items-center
-                    justify-center
-                    bg-yellow-500
-                    text-white
-                    rounded-full
-                    flex-shrink-0
-                  "
-                >
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2.5"
-                    class="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg> </span
-                >Un kit mensual
-              </p>
-              <p class="flex items-center text-gray-600 mb-2">
-                <span
-                  class="
-                    w-4
-                    h-4
-                    mr-2
-                    inline-flex
-                    items-center
-                    justify-center
-                    bg-yellow-500
-                    text-white
-                    rounded-full
-                    flex-shrink-0
-                  "
-                >
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2.5"
-                    class="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg> </span
-                >Acceso al programa de recompensas
-              </p>
-              <p class="flex items-center text-gray-600 mb-6">
-                <span
-                  class="
-                    w-4
-                    h-4
-                    mr-2
-                    inline-flex
-                    items-center
-                    justify-center
-                    bg-yellow-500
-                    text-white
-                    rounded-full
-                    flex-shrink-0
-                  "
-                >
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2.5"
-                    class="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg> </span
-                >Sommelier en línea
-              </p>
+
               <a
                 href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%8D%B7!%20Me%20interesa%20adquirir%20su%20paquete%20de%20suscripci%C3%B3n."
                 class="
@@ -1041,7 +1045,7 @@
                   >
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg> </span
-                >Regalos empresariales
+                >Paquetes personalizados
               </p>
               <p class="flex items-center text-gray-600 mb-2">
                 <span
@@ -1069,7 +1073,7 @@
                   >
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg> </span
-                >Venta a restaurantes y bares
+                >Pedidos a mayoreo
               </p>
 
               <p class="flex items-center text-gray-600 mb-6">
@@ -1098,7 +1102,7 @@
                   >
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg> </span
-                >Cotizaciones para grupos y eventos
+                >Pedidos a mayoreo
               </p>
               <a
                 href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%8D%B7!%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20su%20suscripci%C3%B3n%20y/o%20kits%20personalizados."
