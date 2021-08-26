@@ -187,8 +187,8 @@
           </div>
         </div>
         <div>
-          <a
-            href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%8D%B7!%20Me%20interesa%20adquirir%20su%20paquete%20%C3%9Anico.s"
+          <NuxtLink
+            to="/paquetes/suscripcion-ambar"
             class="
               inline-flex
               items-center
@@ -210,7 +210,7 @@
             "
           >
             Compra
-          </a>
+          </NuxtLink>
           <p
             class="
               max-w-xs
@@ -273,8 +273,8 @@
           </div>
         </div>
         <div>
-          <a
-            href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%8D%B7!%20Me%20interesa%20adquirir%20su%20paquete%20de%20suscripci%C3%B3n."
+          <NuxtLink
+            to="/paquetes/suscripcion-jade"
             class="
               inline-flex
               items-center
@@ -295,7 +295,7 @@
             "
           >
             SUSCRÍBETE
-          </a>
+          </NuxtLink>
           <p
             class="
               max-w-xs

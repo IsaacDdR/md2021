@@ -13,7 +13,6 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
 
   server: {
     host: '0.0.0.0',
@@ -43,7 +42,7 @@ export default {
   ],
 
   snipcart: {
-    key: 'ODJjNjNjYTQtZmJlZC00MDVjLWI2ZmEtOTgxZGIxMGU0YmU5NjM3NDIxOTQxNjAwNjMwMTAw',
+    key: 'ST_Y2FkNjczN2QtMjc2Zi00NmQxLWFiOGEtZjQwMDAwNmRjYzEzNjM3NjU2MTY0OTc1OTM3ODM1',
 
     locales: { es: {} },
   },

@@ -18,11 +18,11 @@
       >
         <div class="relative flex items-center justify-between">
           <NuxtLink
+            v-scroll-to="'#inicio'"
             to="/"
             aria-label="Company"
             title="Company"
             class="inline-flex items-center"
-            v-scroll-to="'#inicio'"
           >
             <nuxt-img
               v-if="!view.topOfPageLogo"
@@ -321,7 +321,10 @@
 </template>
 <script>
 export default {
-  transition: 'home',
+  async asyncData({ $content, params }) {
+    const articles = await $content('articles', params.slug).fetch()
+    return { articles }
+  },
   data() {
     return {
       isMenuOpen: false,
@@ -330,10 +333,6 @@ export default {
         topOfPage: true,
       },
     }
-  },
-  async asyncData({ $content, params }) {
-    const articles = await $content('articles', params.slug).fetch()
-    return { articles }
   },
   watch: {
     $route() {
@@ -348,31 +347,13 @@ export default {
     handleScrollLogo() {
       if (window.pageYOffset > 700) {
         if (this.view.topOfPageLogo) this.view.topOfPageLogo = false
-      } else {
-        if (!this.view.topOfPageLogo) this.view.topOfPageLogo = true
-      }
+      } else if (!this.view.topOfPageLogo) this.view.topOfPageLogo = true
     },
     handleScroll() {
       if (window.pageYOffset > 20) {
         if (this.view.topOfPage) this.view.topOfPage = false
-      } else {
-        if (!this.view.topOfPage) this.view.topOfPage = true
-      }
+      } else if (!this.view.topOfPage) this.view.topOfPage = true
     },
   },
 }
 </script>
-<style>
-.home-enter-active {
-  animation: bounceInRight 1s;
-}
-.home-leave-active {
-  animation: bounceOutRight 1s;
-}
-.home-enter {
-  animation: bounceInRight 1s;
-}
-.home-leave-active {
-  animation: bounceOutRight 1s;
-}
-</style>

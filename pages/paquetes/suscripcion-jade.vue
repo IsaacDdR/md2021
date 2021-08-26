@@ -15,8 +15,11 @@
           src="https://dummyimage.com/400x400"
         />
         <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+          <h2 class="text-sm title-font text-gray-500 tracking-widest">
+            Suscripción
+          </h2>
           <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">
-            Única entrega
+            Jade
           </h1>
           <div class="flex mb-4">
             <span class="flex">
@@ -74,14 +77,14 @@
 
           <div class="flex">
             <span class="title-font font-medium text-2xl text-gray-900"
-              >$1649.00</span
+              >$1449.00</span
             >
             <button
-              data-item-id="unica-entrega"
-              data-item-price="1649"
-              data-item-url="/paquetes/unica-entrega"
-              data-item-name="Única entrega"
-              data-item-description="Disfruta de México Divino en una sola exhibición, ideal para probar o regalar"
+              data-item-id="suscripcion-jade"
+              data-item-price="1449"
+              data-item-url="/paquetes/suscripcion-jade"
+              data-item-name="Suscripción jade"
+              data-item-description="Recibe nuestro kit del mes ( 2 vinos y/o licores, muestra artesanal, gastronómica y cultural y empaque especial) "
               data-item-image="/img/test.jpg"
               class="
                 snipcart-add-item
