@@ -91,6 +91,7 @@
               >
             </li>
           </ul>
+          <!-- 
           <ul
             class="
               bg-gray-100
@@ -129,6 +130,13 @@
               </a>
             </li>
           </ul>
+            -->
+          <div
+            class="hidden md:block snipcart-checkout text-white text-2xl"
+            :class="{ 'text-gray-900': !view.topOfPage }"
+          >
+            <font-awesome-icon :icon="['fas', 'shopping-cart']" />
+          </div>
           <div class="lg:hidden">
             <button
               aria-label="Open Menu"
@@ -278,6 +286,10 @@
                           >Contacto</NuxtLink
                         >
                       </li>
+                      <div class="snipcart-checkout text-2xl">
+                        <font-awesome-icon :icon="['fas', 'shopping-cart']" />
+                      </div>
+                      <!--
                       <li>
                         <a
                           href="https://api.whatsapp.com/send?phone=524427541011&text=%C2%A1Hola%20M%C3%A9xico%20Divino%20%F0%9F%8D%B7!%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20su%20suscripci%C3%B3n%20y/o%20kits%20personalizados."
@@ -306,6 +318,7 @@
                           Whatsapp
                         </a>
                       </li>
+                      -->
                     </ul>
                   </nav>
                 </div>

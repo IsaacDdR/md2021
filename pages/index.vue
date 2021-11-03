@@ -27,6 +27,7 @@
             h-full
             w-full
           "
+          format="webp"
           alt="hero"
           src="/img/logo-md-white.png"
         />
@@ -125,7 +126,6 @@
         mb-5
       "
     >
-      <!--Video-->
       <div
         id="video-el"
         data-aos="fade-up"
@@ -135,6 +135,7 @@
         <div class="w-screen md:mt-40 mt-24 mb-12">
           <div class="aspect-w-16 aspect-h-9">
             <iframe
+              class="w-full"
               src="https://player.vimeo.com/video/463986420"
               width="640"
               height="360"
@@ -174,6 +175,7 @@
           </p>
         </div>
       </div>
+
       <a v-scroll-to="'#steps-el'" href="#">
         <div class="flex">
           <div class="mt-4 text-4xl mx-auto">

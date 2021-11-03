@@ -23,16 +23,16 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
-  css: ['animate.css/animate.compat.css'],
+  css: ['animate.css/animate.compat.css', '@/assets/css/main.css'],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
+    //'@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
 
-    'nuxt-vite',
+    //'nuxt-vite',
 
     '@nuxt/image',
 
@@ -40,6 +40,12 @@ export default {
 
     '@nuxtjs/snipcart',
   ],
+
+  googleFonts: {
+    families: {
+      'Zen+antique': true,
+    },
+  },
 
   snipcart: {
     key: 'ODJjNjNjYTQtZmJlZC00MDVjLWI2ZmEtOTgxZGIxMGU0YmU5NjM3NDIxOTQxNjAwNjMwMTAw',
@@ -49,8 +55,16 @@ export default {
 
   fontawesome: {
     icons: {
-      solid: true,
-      brands: true,
+      solid: [
+        'faChevronDown',
+        'faAngleDoubleDown',
+        'faEnvelope',
+        'faCalendarCheck',
+        'faClock',
+        'faWineGlassAlt',
+        'faShoppingCart',
+      ],
+      brands: false,
     },
   },
 
