@@ -2,7 +2,7 @@
   <section class="text-gray-600 body-font overflow-hidden">
     <div class="container px-5 py-24 mx-auto">
       <div class="lg:w-4/5 mx-auto flex flex-wrap">
-        <img
+        <nuxt-img
           alt="ecommerce"
           class="
             lg:w-1/2
@@ -12,7 +12,7 @@
             object-cover object-center
             rounded
           "
-          src="https://dummyimage.com/400x400"
+          src="/img/jade.webp"
         />
         <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
           <h2 class="text-sm title-font text-gray-500 tracking-widest">
@@ -85,7 +85,7 @@
               data-item-url="/paquetes/suscripcion-jade"
               data-item-name="Suscripción jade"
               data-item-description="Recibe nuestro kit del mes ( 2 vinos y/o licores, muestra artesanal, gastronómica y cultural y empaque especial) "
-              data-item-image="/img/test.jpg"
+              data-item-image="/img/jade.webp"
               class="
                 snipcart-add-item
                 flex

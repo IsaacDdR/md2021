@@ -2,7 +2,7 @@
   <section class="text-gray-600 body-font overflow-hidden">
     <div class="container px-5 py-24 mx-auto">
       <div class="lg:w-4/5 mx-auto flex flex-wrap">
-        <img
+        <nuxt-img
           alt="ecommerce"
           class="
             lg:w-1/2
@@ -12,7 +12,7 @@
             object-cover object-center
             rounded
           "
-          src="https://dummyimage.com/400x400"
+          src="/img/unica-entrega.webp"
         />
         <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
           <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">
@@ -82,7 +82,7 @@
               data-item-url="/paquetes/unica-entrega"
               data-item-name="Única entrega"
               data-item-description="Disfruta de México Divino en una sola exhibición, ideal para probar o regalar"
-              data-item-image="/img/test.jpg"
+              data-item-image="/img/unica-entrega.webp"
               class="
                 snipcart-add-item
                 flex

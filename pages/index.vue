@@ -1,8 +1,8 @@
 <template>
   <div class="no-highlight">
     <section
-      class="h-screen text-gray-600 body-font bg-vinos h-screen md:h-full"
       id="inicio"
+      class="h-screen text-gray-600 body-font bg-vinos h-screen md:h-full"
     >
       <div
         class="
@@ -40,7 +40,7 @@
             tu hogar.
           </h1>
 
-          <a href="#" v-scroll-to="'#first-el'">
+          <a v-scroll-to="'#first-el'" href="#">
             <div class="flex flex-col my-12 text-white text-xl">
               <span class="mx-auto text-center text-4xl">
                 <div class="mt-4">
@@ -98,7 +98,7 @@
         />
       </div>
 
-      <a href="#" v-scroll-to="'#video-el'">
+      <a v-scroll-to="'#video-el'" href="#">
         <div class="flex flex-col my-8 text-4xl">
           <span class="mx-auto text-center">
             <span class="animate-ping absolute inline-flex">
@@ -127,9 +127,9 @@
     >
       <!--Video-->
       <div
+        id="video-el"
         data-aos="fade-up"
         data-aos-duration="1500"
-        id="video-el"
         class="flex lg:flex-row mx-4 flex-col items-center"
       >
         <div class="w-screen md:mt-40 mt-24 mb-12">
@@ -1171,163 +1171,12 @@
         </div>
       </div>
     </section>
-
-    <section class="text-gray-600 body-font relative">
-      <div class="container px-5 py-20 mx-auto">
-        <div class="flex flex-col text-center w-full mb-12">
-          <h1
-            class="
-              sm:text-3xl
-              text-2xl
-              font-medium
-              title-font
-              mb-4
-              text-gray-900
-            "
-          >
-            Contáctanos
-          </h1>
-          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-            No te quedes con duda, manda un mensaje y te atenderemos a la
-            brevedad
-          </p>
-        </div>
-        <div class="lg:w-1/2 md:w-2/3 mx-auto">
-          <div class="flex flex-wrap -m-2">
-            <div class="p-2 w-1/2">
-              <div class="relative">
-                <label for="name" class="leading-7 text-sm text-gray-600"
-                  >Nombre</label
-                >
-                <input
-                  id="name"
-                  type="text"
-                  name="name"
-                  class="
-                    w-full
-                    bg-gray-100 bg-opacity-50
-                    rounded
-                    border border-gray-300
-                    focus:border-indigo-500
-                    focus:bg-white
-                    focus:ring-2
-                    focus:ring-indigo-200
-                    text-base
-                    outline-none
-                    text-gray-700
-                    py-1
-                    px-3
-                    leading-8
-                    transition-colors
-                    duration-200
-                    ease-in-out
-                  "
-                />
-              </div>
-            </div>
-            <div class="p-2 w-1/2">
-              <div class="relative">
-                <label for="email" class="leading-7 text-sm text-gray-600"
-                  >Email</label
-                >
-                <input
-                  id="email"
-                  type="email"
-                  name="email"
-                  class="
-                    w-full
-                    bg-gray-100 bg-opacity-50
-                    rounded
-                    border border-gray-300
-                    focus:border-indigo-500
-                    focus:bg-white
-                    focus:ring-2
-                    focus:ring-indigo-200
-                    text-base
-                    outline-none
-                    text-gray-700
-                    py-1
-                    px-3
-                    leading-8
-                    transition-colors
-                    duration-200
-                    ease-in-out
-                  "
-                />
-              </div>
-            </div>
-            <div class="p-2 w-full">
-              <div class="relative">
-                <label for="message" class="leading-7 text-sm text-gray-600"
-                  >Mensaje</label
-                >
-                <textarea
-                  id="message"
-                  name="message"
-                  class="
-                    w-full
-                    bg-gray-100 bg-opacity-50
-                    rounded
-                    border border-gray-300
-                    focus:border-indigo-500
-                    focus:bg-white
-                    focus:ring-2
-                    focus:ring-indigo-200
-                    h-32
-                    text-base
-                    outline-none
-                    text-gray-700
-                    py-1
-                    px-3
-                    resize-none
-                    leading-6
-                    transition-colors
-                    duration-200
-                    ease-in-out
-                  "
-                ></textarea>
-              </div>
-            </div>
-            <div class="p-2 w-full">
-              <button
-                class="
-                  shadow
-                  animate-pulse
-                  flex
-                  mx-auto
-                  text-white
-                  border-0
-                  py-2
-                  bg-gray-800
-                  px-8
-                  focus:outline-none
-                  hover:bg-indigo-600
-                  rounded
-                  text-lg
-                "
-              >
-                Envíar
-              </button>
-            </div>
-
-            <div
-              class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center"
-            >
-              <a class="text-indigo-500">hola@mexicodivino.com.mx</a>
-              <p class="leading-normal my-5">
-                Santiago de Querétaro <br />México
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
 </template>
 <script>
 export default {
+  scrollToTop: true,
   transition: 'home',
-  //scrollToTop: true,
   async asyncData({ $content, params }) {
     const articles = await $content('articles', params.slug).fetch()
 
